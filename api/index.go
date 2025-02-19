@@ -1,11 +1,12 @@
-package handler
+package main
 
 import (
-	"fmt"
-	"net/http"
+    "fmt"
+    "net/http"
 )
 
-// Handler function required by Vercel
+// Handler is the entry point for Vercel
 func Handler(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "Paisa finance tracker is running on Vercel!")
+    fmt.Fprintf(w, "Paisa finance tracker is running on Vercel!")
 }
+
