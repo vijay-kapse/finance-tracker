@@ -1,8 +1,5 @@
 {
   "functions": {
-    "api/*.go": {
-      "runtime": "go1.x",
-      "maxDuration": 10
-    }
+    "api/*.go": {}
   }
 }
